@@ -7,10 +7,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-string? postgresqlConnection = builder.Configuration.GetConnectionString("DefaultConnection");
+string? connection = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(postgresqlConnection));
+    options.UseMySql(connection,
+        ServerVersion.AutoDetect(connection)));
 
 
 var app = builder.Build();

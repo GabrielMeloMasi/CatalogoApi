@@ -1,14 +1,30 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
 
 namespace CatalogoApi.Models;
 
+[Table("Produtos")]//Não necessário pois já atribuimos o atributo de tabela no Context.
 public class Produto
 {
+    [Key]//Não necessário pois já temos o sufixo Id no final do nome
     public int ProdutoId { get; set; }
+
+    [Required]
+    [StringLength(80)]
     public string? Nome { get; set; }
+
+    [Required]
+    [StringLength(300)]
     public string? Descricao { get; set; }
+
+    [Required]
+    [Column(TypeName = "decimal(10,2)")]
     public decimal? Preco { get; set; }
+
+    [Required]
+    [StringLength(300)]
     public string? ImagemUrl { get; set; }
     public float? Estoque { get; set; }
     public DateTime DataCadastro { get; set; }
