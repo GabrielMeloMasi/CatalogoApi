@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CatalogoApi.Controllers
 {
-    [Route("[Controller]")]
+    [Route("api/[Controller]")]
     [ApiController]
     public class ProdutosController : Controller
     {
@@ -18,7 +18,7 @@ namespace CatalogoApi.Controllers
         [HttpGet]
         public ActionResult <IEnumerable<Produto>> GetProdutos() 
         { 
-            var produtos =_context.Produtos.ToList();
+            var produtos =_context.Produtos.AsNoTracking().Take(10).ToList(); //AsNoTracking é usado para otimizar Get que não tem a necessidade de realizar o rastreamento e acompanhas seus estados.
             if (produtos is null)
             {
                 return NotFound("Produtos não encontrados...");

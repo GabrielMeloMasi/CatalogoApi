@@ -1,32 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\CatalogoApi.csproj": {}
+    "C:\\Users\\masig\\Desktop\\Gabriel\\Code\\CatalogoApi\\CatalogoApi\\CatalogoApi.csproj": {}
   },
   "projects": {
-    "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\CatalogoApi.csproj": {
+    "C:\\Users\\masig\\Desktop\\Gabriel\\Code\\CatalogoApi\\CatalogoApi\\CatalogoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\CatalogoApi.csproj",
+        "projectUniqueName": "C:\\Users\\masig\\Desktop\\Gabriel\\Code\\CatalogoApi\\CatalogoApi\\CatalogoApi.csproj",
         "projectName": "CatalogoApi",
-        "projectPath": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\CatalogoApi.csproj",
-        "packagesPath": "C:\\Users\\2568455\\.nuget\\packages\\",
-        "outputPath": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\obj\\",
+        "projectPath": "C:\\Users\\masig\\Desktop\\Gabriel\\Code\\CatalogoApi\\CatalogoApi\\CatalogoApi.csproj",
+        "packagesPath": "C:\\Users\\masig\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\masig\\Desktop\\Gabriel\\Code\\CatalogoApi\\CatalogoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\2568455\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\masig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -99,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

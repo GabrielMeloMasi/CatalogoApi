@@ -1,9 +1,10 @@
 ﻿using CatalogoApi.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CatalogoApi.Controllers
 {
-    [Route("[Controller]")]
+    [Route("api/[Controller]")]
     [ApiController]
     public class CategoriasController : Controller
     {
@@ -14,26 +15,45 @@ namespace CatalogoApi.Controllers
             _context = context;
         }
 
+        [HttpGet("produtos")]
+        public ActionResult<IEnumerable<Categoria>> GetCategoriasProduto()
+        {
+            return _context.Categorias.Include(p => p.Produtos).ToList();
+        }
+
+
         [HttpGet]
         public ActionResult<IEnumerable<Categoria>> GetCategorias()
         {
-            var categorias = _context.Categorias.ToList();
-            if (categorias is null)
+            try
             {
-                return NotFound("Categorias não encontradas...");
+                return _context.Categorias.AsNoTracking().ToList();
             }
-            return categorias;
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um problema para tratar sua solicitação");
+            }
         }
 
         [HttpGet("{id:int}", Name = "ObterCategoria")]
         public ActionResult<Categoria> GetCategoria(int id)
         {
-            var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
-            if (categoria is null)
+            try
             {
-                return NotFound("Categoria não encontrada!");
+                var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
+                if (categoria is null)
+                {
+                    return NotFound("Categoria não encontrada!");
+                }
+                return categoria;
             }
-            return categoria;
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um problema para tratar sua solicitação");
+            }
+            
         }
 
         [HttpPost]
@@ -65,14 +85,14 @@ namespace CatalogoApi.Controllers
         }
 
         [HttpDelete("{id=int}")]
-        public ActionResult Delete(int id)
+        public ActionResult<Categoria> Delete(int id)
         {
             var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
             if(categoria is null)
             {
                 return NotFound("Categoria não encontrada!");
             }
-            _context.Remove(categoria);
+            _context.Categorias.Remove(categoria);
             _context.SaveChanges();
 
             return Ok(categoria);
