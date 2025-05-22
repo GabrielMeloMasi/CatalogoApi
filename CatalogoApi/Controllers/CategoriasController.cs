@@ -71,6 +71,7 @@ namespace CatalogoApi.Controllers
         [HttpGet("{id:int}", Name = "ObterCategoria")]
         public ActionResult<Categoria> GetCategoria(int id)
         {
+            //throw new Exception("Excecão ao retornar o produto pelo id"); usado para testar a extension.
             try
             {
                 var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);

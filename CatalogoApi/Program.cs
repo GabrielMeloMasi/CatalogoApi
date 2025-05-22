@@ -1,4 +1,5 @@
 using CatalogoApi;
+using CatalogoApi.Extensions;
 using CatalogoApi.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -33,6 +34,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.ConfigueExceptionHandler(); 
 }
 
 app.UseHttpsRedirection();
