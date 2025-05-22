@@ -1,4 +1,6 @@
 using CatalogoApi;
+using CatalogoApi.Services;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography.Xml;
 using System.Text.Json.Serialization;
@@ -19,6 +21,11 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(connection,
         ServerVersion.AutoDetect(connection)));
 
+builder.Services.AddTransient<IMeuServico, MeuServico>();
+//builder.Services.Configure<ApiBehaviorOptions>(options =>
+//{
+//    options.DisableImplicitFromServicesParameters = true;
+//});
 
 var app = builder.Build();
 

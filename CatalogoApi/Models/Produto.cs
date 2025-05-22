@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CatalogoApi.Validation;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
@@ -12,12 +13,13 @@ public class Produto
     [Key]//Não necessário pois já temos o sufixo Id no final do nome
     public int ProdutoId { get; set; }
 
-    [Required]
-    [StringLength(80)]
+    [Required(ErrorMessage = "O nome é obrigatório!" )]
+    [StringLength(80, ErrorMessage = "O nome deve ter no máximo {1} caracteres.")]
+    [PrimeiraLetra]
     public string? Nome { get; set; }
 
     [Required]
-    [StringLength(300)]
+    [StringLength(300, ErrorMessage = "A descrição deve ter no máximo {1} caracteres.")]
     public string? Descricao { get; set; }
 
     [Required]

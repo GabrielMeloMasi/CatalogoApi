@@ -1,5 +1,6 @@
 ﻿using CatalogoApi.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 
 namespace CatalogoApi.Controllers
@@ -14,21 +15,19 @@ namespace CatalogoApi.Controllers
         {
             _context = context;
         }
-
+        //[HttpGet("{valor:alpha:length(5)}")] restrições em roteamento!
         [HttpGet]
-        public ActionResult <IEnumerable<Produto>> GetProdutos() 
+        public async Task <ActionResult<IEnumerable<Produto>>> GetProdutos()
         { 
-            var produtos =_context.Produtos.AsNoTracking().Take(10).ToList(); //AsNoTracking é usado para otimizar Get que não tem a necessidade de realizar o rastreamento e acompanhas seus estados.
-            if (produtos is null)
-            {
-                return NotFound("Produtos não encontrados...");
-            }
+            var produtos = await _context.Produtos.AsNoTracking().ToListAsync(); //AsNoTracking é usado para otimizar Get que não tem a necessidade de realizar o rastreamento e acompanhar seus estados.
+     
             return produtos;
         }
-        [HttpGet("{id=int}", Name = "ObterProduto")]
-        public ActionResult<Produto> Get(int id)
+
+        [HttpGet("{id=int:min(1)}", Name = "ObterProduto")]
+        public async Task <ActionResult<Produto>> Get([FromQuery]int id)
         {
-            var produto = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
+            var produto = await _context.Produtos.FirstOrDefaultAsync(p => p.ProdutoId == id);
             if (produto is null)
             {
                 return NotFound("Produto não encontrado...");
