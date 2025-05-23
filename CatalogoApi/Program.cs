@@ -1,5 +1,6 @@
 using CatalogoApi;
 using CatalogoApi.Extensions;
+using CatalogoApi.Filters;
 using CatalogoApi.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +28,8 @@ builder.Services.AddTransient<IMeuServico, MeuServico>();
 //{
 //    options.DisableImplicitFromServicesParameters = true;
 //});
+
+builder.Services.AddScoped<ApiLoggingFilter>();
 
 var app = builder.Build();
 
