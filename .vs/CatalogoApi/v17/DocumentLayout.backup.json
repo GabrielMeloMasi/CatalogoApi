@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Estudos\\Curso C#\\CatalogoApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\repositories\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\repositories\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\filters\\apiloggingfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\filters\\apiloggingfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\repositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\repositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,96 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CatalogoApi\\appsettings.Development.json",
-              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\appsettings.Development.json",
-              "RelativeToolTip": "CatalogoApi\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-22T12:44:52.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Program.cs",
-              "RelativeDocumentMoniker": "CatalogoApi\\Program.cs",
-              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Program.cs",
-              "RelativeToolTip": "CatalogoApi\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T19:56:46.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\appsettings.json",
-              "RelativeDocumentMoniker": "CatalogoApi\\appsettings.json",
-              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\appsettings.json",
-              "RelativeToolTip": "CatalogoApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-21T19:43:43.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "CatalogoApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "CatalogoApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-21T19:40:26.466Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "CatalogoApi\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "CatalogoApi\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwFcAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T18:06:18.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiLoggingFilter.cs",
-              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Filters\\ApiLoggingFilter.cs",
-              "RelativeDocumentMoniker": "CatalogoApi\\Filters\\ApiLoggingFilter.cs",
-              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Filters\\ApiLoggingFilter.cs",
-              "RelativeToolTip": "CatalogoApi\\Filters\\ApiLoggingFilter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:22:37.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "CatalogoApi\\Controllers\\ProdutosController.cs",
               "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "CatalogoApi\\Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA7wBsAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:58:52.328Z"
+              "WhenOpened": "2025-06-02T17:33:40.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "CatalogoApi\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "CatalogoApi\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:30:19.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "CatalogoApi\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "CatalogoApi\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:28:51.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "CatalogoApi\\Repositories\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\CategoriaRepository.cs",
+              "RelativeToolTip": "CatalogoApi\\Repositories\\CategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:21:10.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\ICategoriaRepository.cs",
+              "RelativeDocumentMoniker": "CatalogoApi\\Repositories\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\ICategoriaRepository.cs",
+              "RelativeToolTip": "CatalogoApi\\Repositories\\ICategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:19:42.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "CatalogoApi\\Repositories\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\IProdutoRepository.cs",
+              "RelativeToolTip": "CatalogoApi\\Repositories\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:20:05.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "CatalogoApi\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\Repository.cs",
+              "RelativeToolTip": "CatalogoApi\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:05:25.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "CatalogoApi\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "CatalogoApi\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:54:39.402Z",
+              "EditorCaption": ""
             }
           ]
         }
