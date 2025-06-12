@@ -1,4 +1,5 @@
 using CatalogoApi;
+using CatalogoApi.DTOs.Mappings;
 using CatalogoApi.Extensions;
 using CatalogoApi.Filters;
 using CatalogoApi.Logging;
@@ -8,6 +9,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography.Xml;
 using System.Text.Json.Serialization;
+using AutoMapper;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,15 +39,16 @@ builder.Services.AddTransient<IMeuServico, MeuServico>();
 //});
 
 builder.Services.AddScoped<ApiLoggingFilter>();
-
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 //builder.Logging.AddProvider(new CustomerLoggerProvider(new CustomLoggerProviderConfiguration
 //{
 //    LogLevel = LogLevel.Information
 //}));
+builder.Services.AddAutoMapper(typeof(ProdutoDTOMappingProfile));
 
 var app = builder.Build();
 

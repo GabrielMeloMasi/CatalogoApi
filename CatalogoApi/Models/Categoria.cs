@@ -19,6 +19,6 @@ public class Categoria
 
     [Required]
     [StringLength(300)]
-    public string? imagemUrl { get; set; }
+    public string? ImagemUrl { get; set; }
     public ICollection<Produto>? Produtos { get; set; }
 }

@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[CatalogoApi.Models.Categoria, CatalogoApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CatalogoApi.DTOs.CategoriaDTO, CatalogoApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,12 +28,22 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "categoria",
-        "Type": "CatalogoApi.Models.Categoria",
+        "Name": "categoriaDto",
+        "Type": "CatalogoApi.DTOs.CategoriaDTO",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "CatalogoApi.DTOs.CategoriaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "CatalogoApi.Controllers.CategoriasController",
@@ -51,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CatalogoApi.Models.Categoria",
+        "Type": "CatalogoApi.DTOs.CategoriaDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -76,12 +86,22 @@
         "IsRequired": true
       },
       {
-        "Name": "categoria",
-        "Type": "CatalogoApi.Models.Categoria",
+        "Name": "categoriaDTO",
+        "Type": "CatalogoApi.DTOs.CategoriaDTO",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "CatalogoApi.DTOs.CategoriaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "CatalogoApi.Controllers.CategoriasController",
@@ -97,7 +117,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "CatalogoApi.DTOs.CategoriaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "CatalogoApi.Controllers.ProdutosController",

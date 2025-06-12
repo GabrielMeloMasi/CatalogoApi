@@ -595,3 +595,5 @@ C:\Users\masig\Desktop\Gabriel\Code\CatalogoApi\CatalogoApi\bin\Debug\net8.0\run
 C:\Users\masig\Desktop\Gabriel\Code\CatalogoApi\CatalogoApi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\masig\Desktop\Gabriel\Code\CatalogoApi\CatalogoApi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\masig\Desktop\Gabriel\Code\CatalogoApi\CatalogoApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Estudos\Curso C#\CatalogoApi\CatalogoApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Estudos\Curso C#\CatalogoApi\CatalogoApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
