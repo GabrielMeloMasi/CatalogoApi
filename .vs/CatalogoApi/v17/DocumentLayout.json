@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Estudos\\Curso C#\\CatalogoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|c:\\estudos\\curso c#\\catalogoapi\\catalogoapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A59CFBB-B591-4F46-BF75-B29CBF8356B3}|CatalogoApi\\CatalogoApi.csproj|solutionrelative:catalogoapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CategoriasController.cs",
               "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "CatalogoApi\\Controllers\\CategoriasController.cs",
               "ToolTip": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Controllers\\CategoriasController.cs",
               "RelativeToolTip": "CatalogoApi\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwDQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T13:03:23.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "C:\\Estudos\\Curso C#\\CatalogoApi\\CatalogoApi\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "CatalogoApi\\Controllers\\ProdutosController.cs",
@@ -43,8 +43,7 @@
               "RelativeToolTip": "CatalogoApi\\Controllers\\ProdutosController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwFcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:48:13.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T12:48:13.66Z"
             }
           ]
         }

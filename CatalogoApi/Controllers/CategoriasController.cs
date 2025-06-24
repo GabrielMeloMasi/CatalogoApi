@@ -15,7 +15,7 @@ namespace CatalogoApi.Controllers
     [ApiController]
     public class CategoriasController : Controller
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly     _unitOfWork;
         private readonly ILogger _logger;
 
         public CategoriasController(ILogger<CategoriasController> logger, IUnitOfWork unitOfWork)
